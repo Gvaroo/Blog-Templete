@@ -1,0 +1,309 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+header {
+    width: 100%;
+    height: 660px;
+    background-image: url("https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_1440,h_659,al_c,q_85,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp");
+    background-size: cover;
+    color: white;
+}
+
+header section {
+    background-color: rgb(16 11 50 / 61%);
+    height: 100%;
+}
+
+header nav {
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+header nav h1 {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+header nav ul {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin:0px 25px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header article {
+    text-align: center;
+    margin-top: 120px;
+}
+
+header article h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+header article h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    width: 700px;
+    margin: auto;
+}
+
+.post-area {
+    width: 980px;
+    margin:40px auto;
+}
+
+.post-area ul {
+    display: inline-block;
+    margin:0px;
+    padding:0px;
+}
+
+.post-area .filters ul li {
+    display: inline-block;
+    margin:0px 20px;
+    font-size: 16px;
+    color: rgb(47, 46, 46);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.post-area .fa-search {
+    float: right;
+    color: rgb(47, 46, 46);
+    margin-top: 5px;
+}
+
+.posts {
+    margin-top: 50px;
+}
+
+.posts .card {
+    width:292px;  
+    display: inline-block;  
+    margin:0px 0px 30px 28px;
+}
+
+.posts img {
+    width: 292px;
+    height: 195px;
+    object-fit: cover;
+} 
+
+.card .card-information {
+    padding: 20px 30px;
+}
+
+.card .user-info img {
+    width:34px;
+    height: 34px;
+    object-fit: cover;
+    border-radius: 17px;
+}
+
+.card .user-info ul {
+    display: inline-block;
+}
+
+.card .user-info ul li {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+    margin:0px;
+    display: block;
+}
+
+.card .user-info .fa-ellipsis-v {
+    float: right;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-top: 12px;
+}
+
+.card .user-info .fa-crown {
+    color: black;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card a h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(47, 46, 46);
+    margin-bottom: 0px;
+}
+
+.card a p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+    margin-top: 5px;
+}
+
+.post-footer {
+    border-top: 1px solid rgb(200, 200, 200);
+    margin-top: 40px;
+    padding-top: 13px;
+}
+
+.post-footer li {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+    margin:0px 5px;
+    display: inline-block;
+}
+
+.fa-heart {
+    color: red;
+}
+footer section {
+  width: 1349px;
+  height: 495px;
+  background-color: rgb(67, 74, 117);
+  display: inline-block;
+
+}
+.footer-information {
+  width: 100%;
+  margin-top: 60px;
+  display: inline-block;
+   
+}
+.footer-information .about-feed {
+width: 264px;
+height: 215px;
+display: inline-block;
+margin-left: 190px;
+float: left;
+}
+.footer-information .socials {
+  width: 91px;
+  height: 219px;
+  display: inline-block;
+  float: left;
+  margin-left: 100px;
+  
+}
+.socials ul {
+  margin: 0px;
+  padding: 0px;
+}
+.socials ul li {
+ margin-bottom: 5px;
+  display: inline-block;
+}
+.footer-information .subscribe {
+  width: 309px;
+  height: 219px;
+  display: inline-block;
+  float: right;
+  margin-right: 180px;
+}
+.footer-information h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color:white;
+  font-weight: 400;
+}
+.footer-information p {
+  font-size: 14px;
+  margin-top: 5px;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+  color: rgb(159, 165, 202);
+}
+.socials li {
+  font-size: 14px;
+  color: rgb(159, 165, 202);
+  line-height: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+.subscribe input {
+  border: 1px solid white;
+  width: 280px;
+  height: 25px;
+  background-color: rgb(67, 74, 117);
+  color: white;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding: 3px 3px 3px 15px;
+}
+.subscribe button {
+  background-color: rgb(100, 111, 176);
+  border: none;
+  padding: 7px 95px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  width: 50;
+}
+.contact {
+  width: 954px;
+  margin-top: 100px;
+  margin-left: 180px;
+  margin-right: auto;
+  
+}
+.contact ul {
+  padding: 0px;
+  
+  display: inline-block;
+}
+.contact ul li {
+  display: inline-block;
+  margin: 0px 17px;
+  
+}
+.contact ul li a {
+  color: rgb(196, 201, 229);
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+.contact span {
+  float: right;
+  margin-top: 20px;
+  margin-left: 60px;
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.contact span a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
